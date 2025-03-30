@@ -2,6 +2,7 @@
 An implementation of automated feature extraction for inverse Reinforcement Learning using radial basis functions
 
 # Team Members
+Ajmal (cs22b2046)
 
 ## Overview
 
@@ -48,6 +49,8 @@ The pendulum environment is a classic control problem where:
 
 We conduct experiments on the **pendulum environment**, where the reward can be perfectly represented using polynomial features, allowing us to directly compare the effectiveness of polynomial and RBF-based feature extraction for IRL.
 
+We first use PPO to find a policy from which we sample trajectories. Usually in iRL we will be only given the trajectories, here we bootstrap it. we apply iRL on these trajectories to figure out the reward function, then use it to find a policy. The recovered policy can theoretically perform at most as well as, but not better than, the original policy. 
+
 ## RBF-IRL Algorithm
 
 ### Input
@@ -82,7 +85,6 @@ We conduct experiments on the **pendulum environment**, where the reward can be 
    - Compute feature expectations $\mu_\pi$ from the policy rollouts
    - Compute gradient: $g = \mu_E - \mu_\pi - 2\lambda w$ (if using L2 regularization)
    - Update weights: $w = w + \alpha g$
-   - Check for convergence (optional)
 
 7. **Return** the learned weights $w$
 
