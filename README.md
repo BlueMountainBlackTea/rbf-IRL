@@ -5,6 +5,8 @@ Ajmal (cs22b2046)
 
 Ashiq (cs22b2021)
 
+Adithya MS (cs22b1098)
+
 ## Overview
 This project implements **automated feature extraction for Inverse Reinforcement Learning (IRL)** using **Radial Basis Functions (RBFs)** with K-means clustering. We compare RBF-based features to polynomial features in the **pendulum environment**, showing that RBFs capture non-linear relationships effectively. The approach infers the reward function from expert demonstrations, enabling the agent to learn optimal policies.
 
