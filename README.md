@@ -2,7 +2,7 @@
 An implementation of automated feature extraction for inverse Reinforcement Learning using radial basis functions
 
 # Team Members
-Ajmal (cs22b2046)
+Ashiq (cs22b2021)
 
 ## Overview
 
@@ -134,5 +134,9 @@ pip install -r requirements.txt
 
 ### Pendulum  policy trained on inferred reward
 ![Original Reward Pendulum GIF](gif1.gif)
+
+### GDrive Link to Video  
+[Click here to view the video](https://drive.google.com/drive/folders/1r74VOUmCb8zB7h0yqHcRyLwLoIsInVZX?usp=sharing)
+Please refer to the ipynb file for implementation details
 
 
