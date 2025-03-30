@@ -2,7 +2,7 @@
 An implementation of automated feature extraction for inverse Reinforcement Learning using radial basis functions
 
 # Team Members
-Ashiq (cs22b2021)
+Ajmal (cs22b2046)
 
 ## Overview
 
