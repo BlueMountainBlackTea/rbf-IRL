@@ -51,7 +51,7 @@ We conduct experiments on the **pendulum environment**, where the reward can be 
 
 We first use PPO to find a policy from which we sample trajectories. Usually in iRL we will be only given the trajectories, here we bootstrap it. we apply iRL on these trajectories to figure out the reward function, then use it to find a policy. The recovered policy can theoretically perform at most as well as, but not better than, the original policy. 
 
-## RBF-IRL Algorithm
+## RBF-IRL proposed Algorithm
 
 ### Input
 - Expert demonstrations $\tau_E = \{\tau_1, \tau_2, ..., \tau_N\}$ where each $\tau_i$ is a trajectory of state-action pairs
