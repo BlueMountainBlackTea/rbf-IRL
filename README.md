@@ -141,6 +141,6 @@ pip install -r requirements.txt
 Please refer to the ipynb file for implementation details
 
 ## Conclusion
-We find that using RBF with K-means clustering performs decently well and can be used as an alternative to the polynomial basis function (used in the [attached research paper](https://arxiv.org/abs/2403.15079v1)).
+We find that using RBF with K-means clustering (our proposed algorithm) performs well and can be used as an alternative to the polynomial basis function (used in the [attached research paper](https://arxiv.org/abs/2403.15079v1)).
 
 
