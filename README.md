@@ -1,10 +1,10 @@
 # rbf-IRL
-An implementation of automated feature extraction for inverse Reinforcement Learning using radial basis functions
 
-# Team Members
+## Team Members
 Ajmal (cs22b2046)
 
 ## Overview
+This project implements **automated feature extraction for Inverse Reinforcement Learning (IRL)** using **Radial Basis Functions (RBFs)** with K-means clustering. We compare RBF-based features to polynomial features in the **pendulum environment**, showing that RBFs capture non-linear relationships effectively. The approach infers the reward function from expert demonstrations, enabling the agent to learn optimal policies.
 
 ## **Inverse Reinforcement Learning (IRL)**
 is a framework where the goal is to **infer the reward function** from expert demonstrations instead of defining it explicitly. This approach is useful when designing a reward function manually is challenging or infeasible (such as automated driving and parking, where the rewards are difficult to formulate). IRL aims to recover the underlying motivations driving expert behavior, allowing the agent to learn effective policies that generalize well to new situations.
