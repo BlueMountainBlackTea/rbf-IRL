@@ -122,15 +122,15 @@ pip install -r requirements.txt
 ## Images
 
 ### Reward per Trajectory
-![Reward per Trajectory](img1.jpg)
+![Reward per Trajectory](img1.JPG)
 
 ### Reward Image
-![Reward Image](img2.jpg)
+![Reward Image](img2.JPG)
 
-### Pendulum GIF ORG
+### Pendulum policy trained on orginal reward
 ![New Reward Pendulum GIF](gif1.gif)
 
-### Pendulum GIF NEW
+### Pendulum  policy trained on inferred reward
 ![Original Reward Pendulum GIF](gif1.gif)
 
 
